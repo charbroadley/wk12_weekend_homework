@@ -1,6 +1,4 @@
-import java.awt.print.Book;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class Flight {
 

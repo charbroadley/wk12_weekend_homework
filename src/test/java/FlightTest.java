@@ -103,3 +103,10 @@ public class FlightTest {
         assertEquals(0, flight1.returnNumberOfAvailableSeats());
     }
 }
+
+// FlightManagerTest
+
+// in @before: FlightManager.setUpFlight(Flight);
+// A STATIC function - can be run on the class and doesn't need an instance set up (public static void...)
+// FlightManager doesn't have any independent attributes or properties (like calculator example in class) so you don't create an instance of it to test
+// https://github.com/codeclan/e62_classnotes/blob/main/week_12/day_4/2_static/static.md
