@@ -59,3 +59,8 @@ public class Flight {
         }
     }
 }
+
+// Date/time: use Instant class (private Instant departureTime)
+// In the constructor we're passing in a string it then is parsed by Instant which we import in (this.departureTime = Instant.parse(departureTime);
+// In the getDepartureTime method -> return this.departureTime.toString();
+// This was chosen as it matches JS as closely as possible (this means the format of the data stored is as similar as possible to the JS date/time) - useful if you have a JS front end because you're input would be in JS date/time so good for things to match up
